@@ -1,0 +1,243 @@
+.body{ 
+    /* display: flex; */
+    margin: 10px;
+}
+.top{ 
+    width: 100%;
+}
+.header{
+    width: 100%;
+    
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.main-content{ 
+    margin: auto;
+    width:auto;
+}
+.profile{ 
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.navList{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rightHead{
+    display:flex;
+    justify-content: space-around;
+    align-items: center; 
+    height: 25px; 
+    margin-right: 50px;  
+    
+} 
+
+.btn{ 
+    height: 30px;
+    width: 90px;
+    background-color: aqua;
+    color: white;
+    box-shadow: black 5px 5px;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+}
+/*  END OF HEADER */
+
+.main-content{
+    display:flex;
+    justify-content: space-around;
+    
+    
+}
+.left-page{
+    display:flex;
+    flex-direction: column;
+}
+.profile-content{
+    width:750px;
+    padding:20px;
+    background-color: aliceblue;
+    margin-top:25px;
+    border-style: solid;
+}
+.top-of-main-content{
+    width: inherit;
+    height: 100px;
+    background-color: black;
+}
+.profile-pic{
+    width: 160px;
+    margin-left: 25px;
+    position:absolute;
+    top: 165px;
+    border-radius: 20%;
+}
+#ryan-meza{
+    margin-left: 40px;
+}
+.small-image{
+    width: 20px;
+}
+.absecon, #map{ 
+    display: inline-block;
+    
+    /* align-items: center; */
+    /* width: 50px; */
+    /* hOW TO SHRINK MAP LOGO */
+    
+}
+.absecon{ 
+    margin-left: 10px;
+}
+#map{
+    width: 20px;
+}
+.education{
+    width: 500px;
+    background-color: aliceblue;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-style: solid;
+    /* padding: 20px; */
+}
+
+.top-of-education{
+    width: inherit;
+    background-color: black;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    
+}
+.edu-title{
+    color: white;
+    margin-left: 20px;
+    font-size: x-large;
+    
+}
+.months{
+/* How to make text faded */
+}
+
+/* End of profile content */
+
+.right-page{
+    display:flex;
+    flex-direction: column;
+}
+.requests{
+    width: 500px;
+    background-color: aliceblue;
+    margin:25px;
+    vertical-align: top;
+    padding:20px;
+    
+    border-style: solid;
+
+}
+.top-of-requests{
+    width: inherit;
+    background-color: black;
+}
+.two-requests, .connection-requests{ 
+display: inline-block;
+color: white;
+margin-left: 20px;
+}
+
+.profile-image{
+    width: 125px;
+    border-radius: 40%;
+    margin: 10px;
+}
+
+
+.connections-1, .connections-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.accept-deny{
+    width: 35px;
+}
+.todd-e, .phil-s{
+    font-size: x-large;
+}
+
+.your-connections{
+    width: 500px;
+    background-color:aliceblue;
+    padding: 20px;
+    margin: 20px;
+    /* padding: 10px; */
+    border-style:solid;
+}
+
+.top-of-your-connections{
+    width:inherit;
+    background-color: black;
+}
+.five-hundred, .your-connections-title{
+    color:white;
+    display: inline-flex;
+    margin-left: 10px;
+    
+}
+.five-hundred{ 
+    background-color: silver;
+    border-radius: 50%;
+    width: 100px;
+    text-align:center;
+    padding: 5px;
+}
+
+.name-1, .name-2, .name-3, .name-4{
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    
+}
+.adrien-d, .anne-j, .alayne-t, .arry-y{
+    margin-left: 20px;
+    font-size: x-large;
+}
+.bottom-of-your-connections{
+    margin-top: 10px;
+    border-style: solid;
+    height: 40px;
+    padding: 10px;
+    
+}
+.view-more{ 
+    text-decoration: none;
+    font-size:larger;
+}
+
+
+
+
+/* How to i move the map pin away from "Absecon, New Jersey" */
+/* How do i move location closer to Name */
+    /* How can i add depth to my profile picture */
+/* How can i make outline on connections look better?
+How to make 500 and 2 be a round circle? */
+
+
+

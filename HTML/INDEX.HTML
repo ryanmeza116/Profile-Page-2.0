@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="../CSS/STYLE.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class = "body">
+        <div class = "top">
+            <div class = "header">
+                <!-- <div class = "leftHead"> -->
+                    <ul class = "navList">
+                        <li>
+                            <h1 class = "profile"> Profile </h1>
+                        </li>
+                        <li> Home </li>
+                        <li class = "myProfile"> My Profile </li>
+                        <li> Find Connections</li>
+                        <!-- <li><button class = "btn"> Sign Out</button> -->
+                    </ul>
+                <div class = "rightHead">
+                <button class = "btn"> Sign Out </button>
+            </div>
+        </div>
+        <!-- END OF HEADER -->
+        <div class = "main-content">
+
+            <div class ="left-page">
+                <div class =" profile-content">
+                    <div class = " top-of-main-content"></div>
+                    <img src="../images/Ryan-m.JPG" alt =" picture of Ryan and his Wife" class = "profile-pic">
+                    <h1 id = "ryan-meza"> Ryan Meza </h1>
+                    <img src="../images/map-marker.png" alt ="map marker" id = "map">
+                    <h2 class ="absecon"> Absecon, New Jersey</h2>
+                    <p> 
+                        Developer | Engineer | Problem Solver
+                        <br>
+                        Master of Shadows and the Internet!
+                    </p>
+                    <img src="../images/gear.png" alt = "small cog" class ="small-image">
+                    <!-- <a href = "#" onclick = "changeName()" > edit profile </a> -->
+                    <button class = "change-name-button" onclick= "changeName()" > Change Name </button>
+                </div>
+                <!-- END OF PROFILE CONTENT/ INSIDE LEFT PAGE-->
+                <div class = "education">
+                    <div class = "top-of-education">
+                        <h3 class = "edu-title"> Education </h3>
+                    </div>
+                    <div class = "edu-line-1">
+                        <h3 class = "coding-dojo"> Coding Dojo - Full Stack Bootcamp</h3>
+                        <p class = "months"> Oct 2021 - May 2022</p>
+                        <br>
+                        <p class = "edu-text"> Triple black belt in Python, MERN, and C#</p>
+                    </div>
+                </div>
+                <!-- END OF EDUCATION -->
+            </div>
+            <!-- END OF LEFT PAGE -->
+            <!-- start right page -->
+            <div class = "right-page">
+                <div class ="requests">
+                    <div class ="top-of-requests">
+                        <h1 class = "two-requests"> 2 : </h1>
+                        <h1 class = "connection-requests"> Connection Requests</h1>
+                    </div>
+                    <div class ="img-request">
+                        <div class = "connections-1">
+                            <img src = "../images/todd-s.jpg" alt = "image of Todd-E" class = "profile-image">
+                            <h3 class = "todd-e"> Todd E </h3>
+                            <button onclick = "removeUser(this.parentNode)">
+                                <img src ="../images/accept-circle.png" alt = "Accept-request" class ="accept-deny"  >
+                            </button>
+                            <button onclick = "removeUser(this.parentNode)">
+                                <img src = "../images/close-circle.png" alt = "Reject-request" class ="accept-deny"  >
+                            </button>
+                        </div>
+                        <div class ="connections-2">
+
+                            <img src ="../images/phil-s.jpg" alt =" image of Phil-s" class ="profile-image">
+                            <h3 class = "phil-s"> Phil S</h3>
+                            <button onclick = "removeUser(this.parentNode)">
+                                <img src = "../images/accept-circle.png" alt = "Accept-request" class ="accept-deny">
+                            </button>
+                            <button onclick = "removeUser(this.parentNode)">
+                                <img src = "../images/close-circle.png" alt = "Reject-request" class ="accept-deny">
+                            </button>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- END OF REQUESTS INSIDE RIGHT PAGE -->
+                <div class = "your-connections">
+                    <div class ="top-of-your-connections">
+                        <h1 class = "five-hundred"> 500 + </h1>
+                        <h1 class = "your-connections-title"> Your Connections</h1>
+                    </div>
+                    <div class = "names">
+                        <div class = "name-1">
+                            <img src = "../images/adrien-s.jpg" alt = "picture of adrian" class = "profile-image">
+                            <h3 class = "adrien-d"> Adrien D</h3>
+                        </div>
+                        <div class = "name-2">
+                            <img src = "../images/anne-s.jpg" alt = " pircture of anne" class = "profile-image">
+                            <h3 class = "anne-j"> Anne J</h3>
+                        </div>
+                        <div class = "name-3">
+                            <img src ="../images/alayne-s.jpg" alt = "picture of Alayne" class = "profile-image">
+                            <h3 class = "alayne-t"> Alayne T </h3>
+                        </div>
+                        <div class = "name-4">
+                            <img src = "../images/arry-s.jpg" alt = "image of Arry" class = "profile-image">
+                            <h3 class = "arry-y"> Arry y</h3>
+                        </div>
+                    </div>
+                    <div class = "bottom-of-your-connections">
+                        <a href = "#" class = "view-more"> View More </a>
+                    </div>
+
+                </div>
+            </div>
+            <!-- END OF RIGHT PAGE -->
+        </div> 
+    </div>
+
+<script src = "../JAVASCRIPT/script.js"></script>
+</body>
+</html>
